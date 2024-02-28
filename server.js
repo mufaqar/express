@@ -22,7 +22,7 @@ const app = express();
 // middlewares
 app.use(
   cors({
-    origin: 'https://express12.vercel.app/',
+    origin: 'https://express12.vercel.app',
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
   })
