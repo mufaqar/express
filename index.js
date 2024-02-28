@@ -26,7 +26,7 @@ const port = 5000
 // app.use('/api/vi/product', productroutes);
 
 app.get('/', (req, res) => {
-  res.send('<h1>Welcome To Mern Stack Project</h1>');
+  res.send('<h1>Welcome To Mern Stack Project 5000</h1>');
 });
 
 app.listen(port, () => {
