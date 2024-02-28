@@ -28,13 +28,13 @@ app.use(
   })
 );
 app.use(express.json());
-app.use(morgan('dev'));
+//app.use(morgan('dev'));
 
 // Routes
 
-app.use('/api/vi/auth', router);
-app.use('/api/vi/category', categoryroutes);
-app.use('/api/vi/product', productroutes);
+// app.use('/api/vi/auth', router);
+// app.use('/api/vi/category', categoryroutes);
+// app.use('/api/vi/product', productroutes);
 
 app.get('/', (req, res) => {
   res.send('<h1>Welcome To Mern Stack Project</h1>');
