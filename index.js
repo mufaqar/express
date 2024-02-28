@@ -32,7 +32,7 @@ app.use(express.json());
 
 //ConnectDB();
 
-mongoose.connect("mongodb+srv://rabbaniusama1:dobaranhi2@cluster0.2bb7j0k.mongodb.net/mernstack");
+//mongoose.connect("mongodb+srv://rabbaniusama1:dobaranhi2@cluster0.2bb7j0k.mongodb.net/mernstack");
 //app.use(morgan('dev'));
 
 // Routes
